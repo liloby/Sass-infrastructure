@@ -66,6 +66,20 @@
   transition: all 0.3s ease;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.footer p {
+  display: flex;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

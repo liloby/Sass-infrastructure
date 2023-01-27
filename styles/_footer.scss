@@ -1,0 +1,17 @@
+@import 'colors';
+@import 'media-queries';
+
+.footer {
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    p {
+        display: flex;
+        font-style: italic;
+        font-size: .9rem;
+    }
+}
